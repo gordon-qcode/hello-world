@@ -1,0 +1,115 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.rounded-box {
+    background-color: rgb(241,241,241);
+    border-radius: 20px;
+    padding: 28px;
+    margin: 10px 10px 17px 10px;
+}
+
+body {
+    background-color: white;
+    padding: 23px;
+    margin: 0px;
+    font-family: Arial;
+}
+
+.site-container {
+    /* Container for whole site */    
+    max-width: 1040px;
+}
+
+.site-header {
+    /* Container for site header */
+    min-height: 105px;
+    padding: 18px;
+    overflow: auto;
+}
+
+.site-header__logo {
+    /* Site Header logo */
+    float: left;
+    width: 200px;
+    height: 66px;
+    background-image: url('https://cloud.githubusercontent.com/assets/1764468/16341829/0857e36e-3a27-11e6-95ce-b2136c0fadb1.png');
+    background-repeat: no-repeat;
+}
+
+.navbar-menu {
+    /* Site navigation menu */
+    text-align: right;
+}
+
+.navbar-menu__item {
+    /* Each menu item */
+    height:67px;
+    line-height:67px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.main-article {
+    /* Container for the main article of the site */
+    min-height: 415px;
+    padding-right: 35px;
+}
+
+.main-article h1 {
+    font-size: 35px;
+    margin-top: 0px;
+}
+
+.main-article img {
+    display: inline-block; 
+    vertical-align: top;
+    padding: 0 30px 0 0; /*padding here instead of content for better alignment at small screen widths */
+}
+
+.main-article__content {
+    /* container for all article content EXCEPT the image */
+    vertical-align: top;
+    display: inline-block;
+    min-width: 458px;
+    width: 458px;
+}
+
+.main-article__sign-up {
+    /* sign-up button-style link*/
+    background-color: rgb(245,154,1);
+    color: white;
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;    
+    font-size: 27px;
+    width: 315px;
+    max-width: 315px;
+    text-transform: uppercase;
+    height: 55px;
+    float: right;
+}
+
+.cool-feature {
+    /* cool-feature boxes of content at the bottom of page */
+    float: left;
+    width: 330px;
+    height: 195px;
+    line-height: 195px;
+    padding: 0px 0px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-top: 0px;
+}
+
+.cool-feature:last-child {
+    /* last cool feature */
+    margin-right: 10px;
+}
