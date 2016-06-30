@@ -18,6 +18,7 @@ body {
     padding: 23px;
     font-family: Arial;
     margin: 0px;
+    font-size: 17px;
 }
 
 .site-container {
@@ -77,10 +78,6 @@ body {
     /* main heading of the main article */
     font-size: 35px;
     margin-top: 0px;
-}
-
-.main-article__paragraph {
-    font-size: 17px;
 }
 
 .main-article__sign-up {
