@@ -65,8 +65,6 @@ body {
 .main-article {
     /* Container for the main article of the site */
     overflow: auto;
-    min-height: 415px;
-    padding-right: 35px;
 }
 
 .main-article__image {
