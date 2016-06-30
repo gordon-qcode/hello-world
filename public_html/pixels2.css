@@ -29,7 +29,6 @@ body {
 
 .site-header {
     /* Container for site header */
-    height: 105px;
     padding: 18px;
     overflow: auto;
 }
@@ -66,10 +65,8 @@ body {
 .main-article {
     /* Container for the main article of the site */
     overflow: auto;
-    vertical-align: top;
     min-height: 415px;
     padding-right: 35px;
-    position: relative;
 }
 
 .main-article__image {
@@ -92,8 +89,7 @@ body {
     /* sign-up button-style link*/
     background-color: rgb(245,154,1);
     color: white;
-    display: inline-block;
-    float: right;
+    float: right;    
     border-radius: 10px;
     padding: 13px 100px;
     text-decoration: none;
@@ -106,12 +102,10 @@ body {
     /* cool-feature boxes of content at the bottom of page */
     float: left;
     width: 330px;
-    height: 195px;
-    line-height: 139px;/*height - 2*padding */
+    line-height: 139px;/*195px height - 2*padding */
     text-align: center;
     font-weight: bold;
     margin-right: 15px;
-    margin-top: 0px;
 }
 
 .cool-feature:last-child {
