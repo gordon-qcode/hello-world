@@ -45,8 +45,7 @@ body {
   overflow: auto; }
 
 .main-article__image {
-  float: left;
-  padding-right: 30px; }
+  padding-bottom: 15px; }
 
 .main-article__heading {
   font-size: 35px;
