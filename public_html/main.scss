@@ -1,0 +1,98 @@
+
+.rounded-box {
+    // reusable rounded box for content within the site-container 
+    background-color: rgb(241,241,241);
+    border-radius: 20px;
+    padding: 28px;
+    margin-bottom: 20px;
+}
+
+body {
+    // body of site 
+    background-color: white;
+    padding: 17px;
+    font-family: Arial;
+    margin: 0px;
+    font-size: 17px;
+}
+
+.site-container {
+    // Container for whole site 
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.img-vert-responsive {
+  width: auto;
+    max-height: 100%;
+}
+
+.site-navbar__logo {
+    // Container for site logo 
+    padding: 0px;
+width: auto;
+height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.site-navbar__links-container {
+    // Site navigation menu 
+    float:right;
+}
+
+.navbar-menu__item {
+    // Each menu item 
+    line-height: 67px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.site-navbar__link:hover {
+    // Hover over menu item 
+    text-decoration: underline;
+}
+
+.main-article {
+    // Container for the main article of the site 
+    overflow: auto;
+}
+
+.main-article__image {
+    // main image in the main article 
+    float: left;    
+    padding-right: 30px;
+}
+
+.main-article__heading {
+    // main heading of the main article 
+    font-size: 35px;
+    margin-top: 0px;
+}
+
+.main-article__sign-up {
+    // sign-up button-style link
+    background-color: rgb(245,154,1);
+    color: white;
+    //float: right;    
+    border-radius: 10px;
+    //padding: 13px 100px;
+    padding: 13px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 27px;
+    text-transform: uppercase;
+    margin-top: 35px;
+}
+
+.cool-feature {
+    // cool-feature boxes of content at the bottom of page 
+    line-height: 139px;//195px height - 2*padding 
+    text-align: center;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-right: 0px;
+}

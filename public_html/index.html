@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -15,22 +15,15 @@
     <!-- Latest compiled JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     
-    <!--
-	<link rel="stylesheet" href="pixels2.css">
-	-->
-    <style>
-      .img-vert-responsive {
-        width: auto;
-        max-height: 100%;
-      }
 
-    </style>
+    <link rel="stylesheet" href="main.css">
+
   </head>
   <body>
 
     <div class="container-fluid site-container">
 
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default rounded-box">
 	<div class="container-fluid">
 	  <div class="navbar-header">
 	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -39,71 +32,72 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
 	    </button>
-	    <a class="navbar-brand" href="#"><img class="img-vert-responsive" src="https://cloud.githubusercontent.com/assets/1764468/16341829/0857e36e-3a27-11e6-95ce-b2136c0fadb1.png" alt="Logo"></a>
+	    <a class="navbar-brand site-navbar__logo" href="#"><img class="img-vert-responsive" src="https://cloud.githubusercontent.com/assets/1764468/16341829/0857e36e-3a27-11e6-95ce-b2136c0fadb1.png" alt="Logo"></a>
 	  </div>
 
 	  <div class="collapse navbar-collapse" id="myNavbar">
-	    <ul class="nav navbar-nav">
+	    <ul class="nav navbar-nav site-navbar__links-container">
               <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Sign Up</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a class="site-navbar__link" href="#">About</a></li>
+              <li><a class="site-navbar__link" href="#">Pricing</a></li>
+              <li><a class="site-navbar__link" href="#">Sign Up</a></li>
+              <li><a class="site-navbar__link" href="#">Contact</a></li>
 	    </ul>
 	  </div>
 	</div>
       </nav>
 
-      <!--
-	  <div class="site-container">
-
-	    <header class="rounded-box site-header">
-	      <a class="site-header__logo" href="#"></a>
-	      
-	      <nav class="navbar-menu">
-		<a class="navbar-menu__item" href="#">Home</a>
-		<a class="navbar-menu__item" href="#">About</a>
-		<a class="navbar-menu__item" href="#">Pricing</a>
-		<a class="navbar-menu__item" href="#">Sign Up</a>
-		<a class="navbar-menu__item" href="#">Contact</a>
-	      </nav>
-	    </header>
-	    -->
-      <article class="well rounded-box main-article">
+      <article class="swell rounded-box main-article">
 	
-	<img class="img-responsive main-article__image" src="https://cloud.githubusercontent.com/assets/1764468/16341831/0872251c-3a27-11e6-9cf4-6144812e20ed.jpg" alt="picture of road">
+	<div class="row">
+	  
+	  <div class="col-sm-6">
+	    <img class="img-responsive main-article__image" src="https://cloud.githubusercontent.com/assets/1764468/16341831/0872251c-3a27-11e6-9cf4-6144812e20ed.jpg" alt="picture of road">
 
-	<div class="main-article__content">
+	  </div>
 
-	  <h1 class="main-article__heading">
-	    This new product will solve all the world’s problems
-	  </h1>
+	  <div class="col-sm-6 main-article__content">
 
-	  <p class="main-article__paragraph">
-	    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
-	    diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-	    erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-	    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-	    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-	    sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-	    et dolore magna aliquyam.
-	  </p>
+	    <h1 class="main-article__heading">
+	      This new product will solve all the world’s problems
+	    </h1>
 
-	  <a class="btn btn-default main-article__sign-up" href="#">Sign Up</a>
+	    <p class="main-article__paragraph">
+	      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
+	      diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+	      erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+	      et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+	      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+	      sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+	      et dolore magna aliquyam.
+	    </p>
+	    <div class="container-fluid">
+	    <div class="row">
+	      <div class="col-md-6"></div>
+	      <div class="col-md-6">
+		<a class="btn btn-default main-article__sign-up" href="#">Sign Up</a>
+	      </div>
+	    </div>
+	    </div>
+	  </div>
 	</div>
-
       </article>  
 
-      <div class="features">
-	<div class="well cool-feature rounded-box">
+      
+      <div class="row features">
+	<div class="col-md-4">
+	<div class=" swell cool-feature rounded-box">
 	  Cool Feature 1 
 	</div>
-
-	<div class="well cool-feature rounded-box">
+	</div>
+	<div class="col-md-4">
+	  <div class="swell cool-feature rounded-box">
 	  Cool Feature 2
 	</div>
-
-	<div class="well cool-feature rounded-box">
+	</div>
+	
+	<div class="col-md-4">
+	  <div class="swell cool-feature rounded-box">
 	  Cool Feature 3
 	</div>
       </div>
