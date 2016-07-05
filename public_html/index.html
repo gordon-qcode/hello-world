@@ -21,9 +21,9 @@
   </head>
   <body>
 
-    <div class="container-fluid site-container">
+    <div class="site-container">
 
-      <nav class="navbar navbar-default rounded-box">
+      <nav class="navbar navbar-default site-navbar rounded-box">
 	<div class="container-fluid">
 	  <div class="navbar-header">
 	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -37,7 +37,7 @@
 
 	  <div class="collapse navbar-collapse" id="myNavbar">
 	    <ul class="nav navbar-nav site-navbar__links-container">
-              <li class="active"><a href="#">Home</a></li>
+              <li class="active"><a  class="site-navbar__link" href="#">Home</a></li>
               <li><a class="site-navbar__link" href="#">About</a></li>
               <li><a class="site-navbar__link" href="#">Pricing</a></li>
               <li><a class="site-navbar__link" href="#">Sign Up</a></li>
@@ -49,14 +49,16 @@
 
       <article class="swell rounded-box main-article">
 	
-	<div class="row">
+	<!--div class="row">
 	  
-	  <div class="col-sm-6">
+	  <div class="col-sm-6"-->
 	    <img class="img-responsive main-article__image" src="https://cloud.githubusercontent.com/assets/1764468/16341831/0872251c-3a27-11e6-9cf4-6144812e20ed.jpg" alt="picture of road">
 
-	  </div>
+	  <!--/div>
 
-	  <div class="col-sm-6 main-article__content">
+	  <div class="col-sm-6 main-article__content"-->
+
+	  <div class="main-article__content">
 
 	    <h1 class="main-article__heading">
 	      This new product will solve all the world’s problems
@@ -73,30 +75,30 @@
 	    </p>
 	    <div class="container-fluid">
 	    <div class="row">
-	      <div class="col-md-6"></div>
-	      <div class="col-md-6">
+	      <div class="col-md-8"></div>
+	      <div class="col-md-4">
 		<a class="btn btn-default main-article__sign-up" href="#">Sign Up</a>
 	      </div>
 	    </div>
 	    </div>
 	  </div>
-	</div>
+	<!--/div-->
       </article>  
 
       
       <div class="row features">
-	<div class="col-md-4">
+	<div class="col-md-4 cool-feature-container">
 	<div class=" swell cool-feature rounded-box">
 	  Cool Feature 1 
 	</div>
 	</div>
-	<div class="col-md-4">
+	<div class="col-md-4 cool-feature-container">
 	  <div class="swell cool-feature rounded-box">
 	  Cool Feature 2
 	</div>
 	</div>
 	
-	<div class="col-md-4">
+	<div class="col-md-4 cool-feature-container">
 	  <div class="swell cool-feature rounded-box">
 	  Cool Feature 3
 	</div>

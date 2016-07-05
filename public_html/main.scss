@@ -18,7 +18,7 @@ body {
 
 .site-container {
     // Container for whole site 
-    max-width: 1040px;
+    max-width: 1020px;
     margin: 0 auto;
 }
 
@@ -27,13 +27,17 @@ body {
     max-height: 100%;
 }
 
+.site-navbar {
+    padding: 18px;
+}
+
 .site-navbar__logo {
     // Container for site logo 
     padding: 0px;
-width: auto;
+/*width: auto;
 height: auto;
     max-height: 100%;
-    max-width: 100%;
+    max-width: 100%;*/
 }
 
 .site-navbar__links-container {
@@ -41,17 +45,16 @@ height: auto;
     float:right;
 }
 
-.navbar-menu__item {
-    // Each menu item 
-    line-height: 67px;
-    padding: 20px;
-    font-size: 18px;
+/*.site-navbar__link:hover {
+    text-decoration: underline;
+}*/
+
+.navbar-default .navbar-nav > li > a {
+    // Menu item
     font-weight: bold;
-    color: black;
-    text-decoration: none;
 }
 
-.site-navbar__link:hover {
+.navbar-default .navbar-nav > li > a:hover {
     // Hover over menu item 
     text-decoration: underline;
 }
@@ -85,7 +88,20 @@ height: auto;
     text-decoration: none;
     font-size: 27px;
     text-transform: uppercase;
-    margin-top: 35px;
+    //margin-top: 35px;
+}
+
+.cool-feature-container {
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+}
+
+.cool-feature-container:first-child {
+    padding-left: 15px;
+}
+
+.cool-feature-container:last-child {
+    padding-right: 15px;
 }
 
 .cool-feature {
