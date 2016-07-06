@@ -1,70 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Layout Pixels 2</title>
+    <title>Layout Bootstrap</title>
 
-    <link rel="stylesheet" href="pixels2.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+
+    <link rel="stylesheet" href="main.css">
 
   </head>
   <body>
 
-  <div class="site-container">
+    <div class="site-container">
 
-    <header class="rounded-box site-header">
-      <a class="site-header__logo" href="#"></a>
-      
-      <nav class="navbar-menu">
-	<a class="navbar-menu__item" href="#">Home</a>
-	<a class="navbar-menu__item" href="#">About</a>
-	<a class="navbar-menu__item" href="#">Pricing</a>
-	<a class="navbar-menu__item" href="#">Sign Up</a>
-	<a class="navbar-menu__item" href="#">Contact</a>
+      <nav class="navbar navbar-default site-navbar rounded-box">
+	<div class="container-fluid">
+	  <div class="navbar-header">
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	      <!--hamburger icon from W3schools -->
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+	    </button>
+	    <a class="navbar-brand site-navbar__logo" href="#"><img class="img-vert-responsive" src="https://cloud.githubusercontent.com/assets/1764468/16341829/0857e36e-3a27-11e6-95ce-b2136c0fadb1.png" alt="Logo"></a>
+	  </div>
+
+	  <div class="collapse navbar-collapse" id="myNavbar">
+	    <ul class="nav navbar-nav site-navbar__links-container">
+              <li class="active"><a  class="site-navbar__link" href="#">Home</a></li>
+              <li><a class="site-navbar__link" href="#">About</a></li>
+              <li><a class="site-navbar__link" href="#">Pricing</a></li>
+              <li><a class="site-navbar__link" href="#">Sign Up</a></li>
+              <li><a class="site-navbar__link" href="#">Contact</a></li>
+	    </ul>
+	  </div>
+	</div>
       </nav>
-    </header>
 
-    <article class="rounded-box main-article">
+      <article class="swell rounded-box main-article">
+	
+	<!--div class="row">
+	  
+	  <div class="col-sm-6"-->
+	    <img class="img-responsive main-article__image" src="https://cloud.githubusercontent.com/assets/1764468/16341831/0872251c-3a27-11e6-9cf4-6144812e20ed.jpg" alt="picture of road">
+
+	  <!--/div>
+
+	  <div class="col-sm-6 main-article__content"-->
+
+	  <div class="main-article__content">
+
+	    <h1 class="main-article__heading">
+	      This new product will solve all the world’s problems
+	    </h1>
+
+	    <p class="main-article__paragraph">
+	      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
+	      diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+	      erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+	      et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+	      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+	      sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+	      et dolore magna aliquyam.
+	    </p>
+	    <div class="container-fluid">
+	    <div class="row">
+	      <div class="col-md-8"></div>
+	      <div class="col-md-4">
+		<a class="btn btn-default main-article__sign-up" href="#">Sign Up</a>
+	      </div>
+	    </div>
+	    </div>
+	  </div>
+	<!--/div-->
+      </article>  
+
       
-      <img class="main-article__image" src="https://cloud.githubusercontent.com/assets/1764468/16341831/0872251c-3a27-11e6-9cf4-6144812e20ed.jpg" alt="picture of road">
-
-      <div class="main-article__content">
-
-	<h1 class="main-article__heading">
-	  This new product will solve all the world’s problems
-	</h1>
-
-	<p class="main-article__paragraph">
-	  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
-	  diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-	  erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-	  et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-	  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-	  sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-	  et dolore magna aliquyam.
-	</p>
-
-	<a class="main-article__sign-up" href="#">Sign Up</a>
+      <div class="row features">
+	<div class="col-md-4 cool-feature-container">
+	<div class=" swell cool-feature rounded-box">
+	  Cool Feature 1 
+	</div>
+	</div>
+	<div class="col-md-4 cool-feature-container">
+	  <div class="swell cool-feature rounded-box">
+	  Cool Feature 2
+	</div>
+	</div>
+	
+	<div class="col-md-4 cool-feature-container">
+	  <div class="swell cool-feature rounded-box">
+	  Cool Feature 3
+	</div>
       </div>
 
-    </article>  
 
-    <div class="features">
-      <div class="cool-feature rounded-box">
-	Cool Feature 1 
-      </div>
-
-      <div class="cool-feature rounded-box">
-	Cool Feature 2
-      </div>
-
-      <div class="cool-feature rounded-box">
-	Cool Feature 3
-      </div>
+      <!-- End site-container -->
     </div>
-
-  </div>
-
 </body>
 </html>
