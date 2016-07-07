@@ -1,0 +1,22 @@
+body {
+    /* body of document */ 
+    padding-top: 15px;
+}
+.img-responsive-vert {
+    /* vertical implementation of bootstrap class img-responsive */
+    width: auto;
+    max-height: 100%;
+}
+.img-margin-bottom {
+    /* add a margin to the bottom of an image */
+    margin-bottom: 20px;
+}
+.m-t-0 {
+    /* this is a class from bootstrap 4-alpha, reduce margin-top to zero */
+    margin-top: 0;
+}
+.margin-center-vert {
+    /* centre using equal margins top and bottom */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
