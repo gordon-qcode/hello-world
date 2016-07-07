@@ -5,7 +5,18 @@
     max-height: 100%;
 }
 
-/* the following classes are equivalent to classes in  bootstrap 4-alpha: 
+@media screen and (min-width: 768px){
+    /* for screens larger than bootstrap eXtraSmall */
+    .pull-sm-right {
+	/* follow bootstrap 4-alpha's naming convention to pull right
+           for small screens and up
+	   http://v4-alpha.getbootstrap.com/components/navbar/#basics
+        */
+	float: right;
+    }
+}
+
+/* the following classes are equivalent to classes in bootstrap 4-alpha: 
    http://v4-alpha.getbootstrap.com/components/utilities/#spacing 
 
 m - margin
@@ -16,7 +27,6 @@ $spacer - 14px
 0 - 0px
 1 - $spacer * 1
 2 - $spacer * 1.5
-
 */
 .m-t-0 { margin-top: 0; }
 .m-b-0 { margin-bottom: 0; }
