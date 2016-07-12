@@ -1,36 +1,40 @@
+/* Site Header */
 
-.img-responsive-vert {
-    /* vertical implementation of bootstrap class img-responsive */
+.site-header {
+    /* site header, contains logo and navigation bar*/
+    margin-top: 14px;
+}
+
+.site-header-logo {
+    /* logo image in the site header */
     width: auto;
     max-height: 100%;
 }
 
 @media screen and (min-width: 768px){
     /* for screens larger than bootstrap eXtraSmall */
-    .pull-sm-right {
-	/* follow bootstrap 4-alpha's naming convention to pull right
-           for small screens and up
-	   http://v4-alpha.getbootstrap.com/components/navbar/#basics
-        */
+    .site-header-nav {
+	/* positions the navigation links to the right */
 	float: right;
     }
 }
 
-/* the following classes are equivalent to classes in bootstrap 4-alpha: 
-   http://v4-alpha.getbootstrap.com/components/utilities/#spacing 
+/* Main Article */
 
-m - margin
-p - padding
-t - top
-b - bottom 
-$spacer - 14px
-0 - 0px
-1 - $spacer * 1
-2 - $spacer * 1.5
-*/
-.m-t-0 { margin-top: 0; }
-.m-b-0 { margin-bottom: 0; }
-.m-t-1 { margin-top: 14px; }
-.m-b-1 { margin-bottom: 14px; }
-.m-t-2 { margin-top: 21px; }
-.m-b-2 { margin-bottom: 21px; }
+.main-article-image {
+    /* image of the main article */
+    margin-bottom: 21px;
+}
+
+.main-article-heading {
+    /* heading of the main article */
+    margin-top: 0px;
+}
+
+/* Cool Features */
+
+.cool-feature-heading {
+    /* heading for each cool feature */
+    margin: 21px 0;
+}
+
