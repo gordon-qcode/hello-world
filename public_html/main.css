@@ -1,0 +1,40 @@
+/* Site Header */
+
+.site-header {
+    /* site header, contains logo and navigation bar*/
+    margin-top: 14px;
+}
+
+.site-header-logo {
+    /* logo image in the site header */
+    width: auto;
+    max-height: 100%;
+}
+
+@media screen and (min-width: 768px){
+    /* for screens larger than bootstrap eXtraSmall */
+    .site-header-nav {
+	/* positions the navigation links to the right */
+	float: right;
+    }
+}
+
+/* Main Article */
+
+.main-article-image {
+    /* image of the main article */
+    margin-bottom: 21px;
+}
+
+.main-article-heading {
+    /* heading of the main article */
+    margin-top: 0px;
+}
+
+/* Cool Features */
+
+.cool-feature-heading {
+    /* heading for each cool feature */
+    margin: 21px 0;
+}
+
